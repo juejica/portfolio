@@ -6,6 +6,22 @@ body {
   margin: 0;
   font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #C3B1E1;
+  text-decoration: underline;
+  text-decoration-thickness: 10px;
+  text-underline-offset: 20px;
+}
+
 h1,
 h2,
 h3,
