@@ -1,0 +1,39 @@
+/* .body {
+  background-color: #ffffff;
+} */
+
+body {
+  margin: 0;
+  font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+h1 {
+  padding: 8px;
+  text-align: center;
+  font-size: 150px; /*5.25vw*/
+  letter-spacing: 0.1vw;
+  margin: 0;
+}
+
+h2 {
+  font-size: 80px;
+  padding: 3px;
+  text-align: center;
+  margin: -10px;
+
+}
+
+.home header .inner {
+  display: block;
+  transform: translateY(0%);
+  -webkit-transition: 250ms all ease;
+  transition: 250ms all ease;
+}
+
