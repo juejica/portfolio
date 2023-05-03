@@ -1,26 +1,9 @@
-/* .body {
-  background-color: #ffffff;
-} */
-
 body {
   margin: 0;
   font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
+  /* background-color: #EDC956; */
 }
 
-a {
-  text-decoration: none;
-}
-
-a:link, a:visited {
-  color: black;
-}
-
-a:hover {
-  color: #C3B1E1;
-  text-decoration: underline;
-  text-decoration-thickness: 10px;
-  text-underline-offset: 20px;
-}
 
 h1,
 h2,
@@ -36,20 +19,49 @@ h1 {
   font-size: 150px; /*5.25vw*/
   letter-spacing: 0.1vw;
   margin: 0;
+  display: block;
 }
 
 h2 {
-  font-size: 80px;
+  font-size: 100px;
   padding: 3px;
   text-align: center;
   margin: -10px;
-
 }
 
-.home header .inner {
-  display: block;
-  transform: translateY(0%);
-  -webkit-transition: 250ms all ease;
-  transition: 250ms all ease;
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: black;
+}
+
+/* Underline */
+a:hover {
+  /* color: #EDC956; */
+  text-decoration: underline;
+  text-decoration-thickness: 7px;
+  text-underline-offset: 11px;
+}
+
+/* Hover text transition */
+
+.inner, .title {
+  transition: 0.3s;
+}
+
+.inner {
+  height: 170px;
+  overflow: hidden;
+  width: auto;
+}
+
+.title {
+  margin-top: 0em;
+}
+
+.inner:hover .title{
+  margin-top: -160px;
 }
 
