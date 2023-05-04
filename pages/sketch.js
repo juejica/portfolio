@@ -11,16 +11,43 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight)
   canvas.position(0, 0)
   canvas.style('z-index', '-1') //puts canvas behind
-  background(255)
+  // background(255)
 }
 
-function mousePressed() {
+function keyPressed() {
   clear()
 }
 
+// change colour
+
+let red = 255
+let green = 255
+let blue = 255
+
 function draw() {
+  stroke(red, green, blue)
   if (mouseIsPressed) {
     line(pmouseX, pmouseY, mouseX, mouseY)
     strokeWeight(10)
   }
 }
+
+function changeToGreen() {
+  red = 170
+  green = 245
+  blue = 66
+}
+
+function changeToBlue() {
+  red = 66
+  green = 173
+  blue = 245
+}
+
+function changeToRed() {
+  red = 245
+  green = 66
+  blue = 147
+}
+
+// How to make it draw black on the first mouse click?

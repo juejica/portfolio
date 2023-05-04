@@ -65,4 +65,19 @@ a:hover {
   margin-top: -160px;
 }
 
+/* Navbar */
+#paintBoard a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 0 10px 0 0;
+}
 
+
+#paintBoard {
+  position: fixed;
+  z-index: 5;
+  bottom: 30px;
+  right: 30px;
+}
