@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
+  /* background-color: #EDC956; */
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+h1 {
+  padding: 8px;
+  text-align: center;
+  font-size: 150px; /*5.25vw*/
+  letter-spacing: 0.1vw;
+  margin: 0;
+  display: block;
+}
+
+h2 {
+  font-size: 100px;
+  padding: 3px;
+  text-align: center;
+  margin: -10px;
+}
