@@ -20,9 +20,9 @@ function keyPressed() {
 
 // change colour
 
-let red = 255
-let green = 255
-let blue = 255
+let red = 0
+let green = 0
+let blue = 0
 
 function draw() {
   stroke(red, green, blue)
@@ -49,5 +49,3 @@ function changeToRed() {
   green = 66
   blue = 147
 }
-
-// How to make it draw black on the first mouse click?
