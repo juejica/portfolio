@@ -29,7 +29,7 @@ function draw() {
   stroke(red, green, blue)
   if (mouseIsPressed) {
     line(pmouseX, pmouseY, mouseX, mouseY)
-    strokeWeight(10)
+    strokeWeight(8)
   }
 }
 

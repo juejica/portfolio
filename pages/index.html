@@ -4,7 +4,10 @@
       <meta charset = "UTF-8">
       <title>Jessica Park</title>
         <link rel="stylesheet" href="style.css">
-        
+
+        <script type = "module" src="main.js"></script>
+        <script src="./libraries/p5.min.js"></script>
+        <script src="sketch.js"></script>
     </head>
 
     <body>
@@ -17,6 +20,10 @@
             <a href="contact.html">Contact</a>
           </h2>
         </div>
+        
+        <div class="illustration-block" unselectable="on">
+          <img src="../assets/landing/henry.png" width="400px" alt="henry" unselectable="off">
+        </div>
 
         <nav id = "paintBoard">
           <a href = "#" style="background-color: #AAF542" onclick="changeToGreen()"></a>
@@ -25,9 +32,11 @@
           <a href = "#" style="background-color: #000000" onclick="changeToBlack()"></a>
         </nav>
       </header>
+
       
-      <script type = "module" src="main.js"></script>
-      <script src="./libraries/p5.min.js"></script>
-      <script src="sketch.js"></script>
+      <div class = "animation-container invisible">
+
+      </div>
+
     </body>
 </html>

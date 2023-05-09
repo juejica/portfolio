@@ -1,9 +1,14 @@
 body {
   margin: 0;
   font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
+  cursor:  '../assets/cursor/pencursor.svg' 0 22,auto;
   /* background-color: #EDC956; */
 }
 
+/* removes selecting of elements */
+* {
+  user-select: none !important;
+}
 
 h1,
 h2,
@@ -45,8 +50,7 @@ a:hover {
   text-underline-offset: 11px;
 }
 
-/* Hover text transition */
-
+/* Slide text transition on hover*/
 .inner, .title {
   transition: 0.3s;
 }
@@ -65,7 +69,7 @@ a:hover {
   margin-top: -160px;
 }
 
-/* Navbar */
+/* Colour Navbar */
 #paintBoard a {
   display: inline-block;
   width: 30px;
@@ -80,4 +84,9 @@ a:hover {
   z-index: 5;
   bottom: 30px;
   right: 30px;
+}
+
+.illustration-block {
+  margin-left: 20px;
+  padding-bottom:20px
 }
