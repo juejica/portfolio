@@ -1,9 +1,10 @@
 body {
   margin: 0;
   font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
-  cursor:  '../assets/cursor/pencursor.svg' 0 22,auto;
+  cursor:  url(../assets/cursor/upcursor.svg), auto;
   /* background-color: #EDC956; */
 }
+
 
 /* removes selecting of elements */
 * {
@@ -87,6 +88,29 @@ a:hover {
 }
 
 .illustration-block {
-  margin-left: 20px;
+  margin: 20px;
   padding-bottom:20px
+  display: flex;
+  justify-content: center;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  gap: 30px
+}
+
+.work1 {
+  width: 439px;
+  height: 439px;
+  background-color: yellow;
+}
+
+
+.work2 {
+  width: 439px;
+  height: 439px;
+  background-color: green;
 }
