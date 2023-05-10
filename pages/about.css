@@ -28,3 +28,22 @@ h2 {
   text-align: center;
   margin: -10px;
 }
+
+/* moving eyes */
+main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+#anchor {
+  height: 700px;
+}
+
+#eyes, #eyes img {
+  position: absolute;
+  display: flex;
+  max-width; 70px;
+  max-height: 70px;
+}
