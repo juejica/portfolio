@@ -96,33 +96,49 @@ a:hover {
   justify-content: center;
 }
 
-
-.container {
+/* Grid Container for works */
+/* .container {
   display: flex;
   justify-content: center;
-  margin: 40px;
+  margin: 80px;
   gap: 30px
 }
 
-.work1 {
+.work {
   width: 439px;
   height: 439px;
-  display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-  
+  transition: 300ms ease;
+  background-color: green;
+} */
+
+.container {
+  display: grid;
+  grid-gap: 20px;
+  padding: 80px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+
+  @media (min-width: 960px) {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+  .work {
+    /* padding: 16px;  */
+    transition: 300ms ease;
+    /* background-color: green; */
+  }
+} 
+
+.work:hover {
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
 }
 
-.work1 img {
+.work img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  
-}
-
-.work2 {
-  width: 439px;
-  height: 439px;
-  background-color: green;
+  object-fit: cover;
 }
