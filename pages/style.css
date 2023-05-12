@@ -115,6 +115,7 @@ a:hover {
 .container {
   display: grid;
   grid-gap: 20px;
+  margin-top: -80px;
   padding: 80px;
 
   @media (min-width: 768px) {
@@ -139,8 +140,8 @@ a:hover {
 }
 
 .work img {
-  width: 100%;
-  height: 100%;
+  width: 627px;
+  height: 470px;
   object-fit: cover;
 }
 
