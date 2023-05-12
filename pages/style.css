@@ -9,6 +9,7 @@ body {
 /* removes selecting of elements */
 * {
   user-select: none !important;
+
 }
 
 h1,
@@ -141,4 +142,8 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.unselectable {
+  pointer-events: none;
 }
