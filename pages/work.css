@@ -1,0 +1,32 @@
+body {
+  padding: 200px;
+  margin: 20px;
+}
+
+section {
+  display: grid;
+  place-items: left;
+  align-content: center;
+  min-height: 100vh;
+
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(1px);
+  transform: translateY(300px);
+  transition: all 1s ease;
+
+}
+
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0px);
+}
