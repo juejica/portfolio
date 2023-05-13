@@ -1,6 +1,19 @@
 body {
   padding: 200px;
-  margin: 20px;
+  margin: 10px;
+  font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
+}
+
+span {
+  font-size: 17vw;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 section {
