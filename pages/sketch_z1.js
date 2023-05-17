@@ -29,7 +29,7 @@ function setup() {
   console.log(windowHeight)
   canvas = createCanvas(windowWidth, h)
   canvas.position(0, 0)
-  canvas.style('z-index', '-1') //puts canvas behind
+  canvas.style('z-index', '1') //puts canvas behind
   // background(255)
 }
 
