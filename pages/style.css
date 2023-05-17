@@ -113,6 +113,7 @@ a:hover {
 } */
 
 .container {
+  
   display: grid;
   grid-gap: 20px;
   padding-top: 0px;
@@ -128,13 +129,14 @@ a:hover {
     grid-template-columns: repeat(2, 1fr); 
   }
 
-  .work {
-    /* padding: 16px;  */
-    transition: 300ms ease;
-    /* background-color: green; */
-  }
 } 
 
+.work {
+  /* padding: 16px;  */
+  z-index: -10;
+  transition: 300ms ease;
+  /* background-color: green; */
+}
 .work:hover {
   transform: scale(0.95);
   -webkit-transform: scale(0.95);

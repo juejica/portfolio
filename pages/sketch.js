@@ -1,18 +1,38 @@
 //sketch as background
 
-var canvas
+let canvas
 
 //window will resize to the width and height of the window
-function windowResized() {
-  //console.log('resized')
-  resizeCanvas(windowWidth, windowHeight)
-}
 
 function setup() {
-  canvas = createCanvas(windowWidth, windowHeight)
+  let h = Math.max(
+    document.body.scrollHeight,
+    document.documentElement.scrollHeight,
+    document.body.offsetHeight,
+    document.documentElement.offsetHeight,
+    document.body.clientHeight,
+    document.documentElement.clientHeight
+  )
+  console.log(h)
+  console.log(document.body.scrollHeight)
+  console.log(windowHeight)
+  canvas = createCanvas(windowWidth, h)
   canvas.position(0, 0)
   canvas.style('z-index', '-1') //puts canvas behind
   // background(255)
+}
+
+function windowResized() {
+  let h = Math.max(
+    document.body.scrollHeight,
+    document.documentElement.scrollHeight,
+    document.body.offsetHeight,
+    document.documentElement.offsetHeight,
+    document.body.clientHeight,
+    document.documentElement.clientHeight
+  )
+  // console.log('resized')
+  resizeCanvas(windowWidth, h)
 }
 
 //pressing a key will clear the canvas
@@ -60,33 +80,33 @@ function changeToBlack() {
 // eyes that follow mouse
 
 // position of the mouse
-document.addEventListener('mousemove', (e) => {
-  const mouseX = e.clientX
-  const mouseY = e.clientY
-  // coordinates for the middle of the base image
-  const anchor = document.getElementById('anchor')
-  const rekt = anchor.getBoundingClientRect()
-  const anchorX = rekt.left + rekt.width / 2
-  const anchorY = rekt.top + rekt.height / 2
+// document.addEventListener('mousemove', (e) => {
+//   const mouseX = e.clientX
+//   const mouseY = e.clientY
+//   // coordinates for the middle of the base image
+//   const anchor = document.getElementById('anchor')
+//   const rekt = anchor.getBoundingClientRect()
+//   const anchorX = rekt.left + rekt.width / 2
+//   const anchorY = rekt.top + rekt.height / 2
 
-  const angleDeg = angle(mouseX, mouseY, anchorX, anchorY)
+//   const angleDeg = angle(mouseX, mouseY, anchorX, anchorY)
 
-  // console.log(angleDeg)
+//   // console.log(angleDeg)
 
-  const eyes = document.querySelectorAll('.eye')
-  eyes.forEach((eye) => {
-    eye.style.transform = `rotate(${90 + angleDeg}deg)`
-  })
-})
+//   const eyes = document.querySelectorAll('.eye')
+//   eyes.forEach((eye) => {
+//     eye.style.transform = `rotate(${90 + angleDeg}deg)`
+//   })
+// })
 
-//angle between position of mouse and middle of image
-function angle(cx, cy, ex, ey) {
-  const dy = ey - cy
-  const dx = ex - cx
-  const rad = Math.atan2(dy, dx)
-  const deg = (rad * 180) / Math.PI
-  return deg
-}
+// //angle between position of mouse and middle of image
+// function angle(cx, cy, ex, ey) {
+//   const dy = ey - cy
+//   const dx = ex - cx
+//   const rad = Math.atan2(dy, dx)
+//   const deg = (rad * 180) / Math.PI
+//   return deg
+// }
 
 // import * as THREE from 'three'
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
