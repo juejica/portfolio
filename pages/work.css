@@ -1,7 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  padding: 200px;
-  margin: 10px;
+  /* padding: 200px;
+  margin: 10px; */
   font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
+}
+
+.banner-area {
+  width: 100%;
+  height: 100vh;
+  background: url(../assets/henry/henrymockup.png);
+  background-size: cover;
 }
 
 span {
@@ -10,13 +23,16 @@ span {
 
 p {
   display: block;
-  margin-block-start: 1em;
+  margin-block-start: 4em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
 
 section {
+  width: 70%;
+  margin: 50px auto;
+  padding: 10px;
   display: grid;
   place-items: left;
   align-content: center;
