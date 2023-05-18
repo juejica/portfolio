@@ -1,16 +1,16 @@
-body {
-  margin: 0;
-  font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
-  cursor:  url(../assets/cursor/upcursor.svg), auto;
-  /* background-color: #EDC956; */
-}
-
-
 /* removes selecting of elements */
 * {
   user-select: none !important;
 
 }
+
+body {
+  margin: 0;
+  font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
+  cursor:  url(../assets/cursor/upcursor.svg), auto;
+  background-color: #ffffff;
+}
+
 
 h1,
 h2,
@@ -19,6 +19,7 @@ h4,
 h5,
 h6 {
   font-weight: 400;
+  
 }
 h1 {
   padding: 8px;
@@ -37,19 +38,22 @@ h2 {
 }
 
 h3 {
+  
   text-align: center;
 }
 
 a {
+  
   text-decoration: none;
 }
 
 a:link, a:visited {
-  color: black;
+  color: rgb(0, 0, 0);
+  
 }
 /* Underline */
 a:hover {
-  /* color: #EDC956; */
+  color: rgb(0, 0, 0);
   text-decoration: underline;
   text-decoration-thickness: 7px;
   text-underline-offset: 11px;
@@ -86,7 +90,7 @@ a:hover {
 
 #paintBoard {
   position: fixed;
-  z-index: 5;
+  z-index: 200;
   bottom: 30px;
   right: 30px;
 }
@@ -99,6 +103,12 @@ a:hover {
   padding-bottom:80px;
   display: flex;
   justify-content: center;
+  pointer-events: none;
+  
+}
+
+.illustration-block img {
+  z-index: -100;
 }
 
 /* Grid Container for works */
@@ -135,10 +145,13 @@ a:hover {
 
   .work {
     /* padding: 16px;  */
+    /* z-index: 100; */
     transition: 300ms ease;
     /* background-color: green; */
   }
 } 
+
+
 
 .work:hover {
   transform: scale(0.95);
@@ -150,8 +163,4 @@ a:hover {
   width: 627px;
   height: 470px;
   object-fit: cover;
-}
-
-.unselectable {
-  pointer-events: none;
 }

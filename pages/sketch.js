@@ -56,7 +56,70 @@ let red = 109
 let green = 203
 let blue = 243
 
+// let brushSize = 6
+// let f = 0.5
+// let spring = 0.4
+// let friction = 0.45
+// let v = 0.5
+// let r = 0
+// let vx = 0
+// let vy = 0
+// let splitNum = 100
+// let diff = 2
+
 function draw() {
+  // if (mouseIsPressed) {
+  //   if (!f) {
+  //     f = true
+  //     x = mouseX
+  //     y = mouseY
+  //   }
+  //   vx += (mouseX - x) * spring
+  //   vy += (mouseY - y) * spring
+  //   vx *= friction
+  //   vy *= friction
+
+  //   v += sqrt(vx * vx + vy * vy) - v
+  //   v *= 0.55
+
+  //   oldR = r
+  //   r = brushSize - v
+  //   var num = random(0.1, 1)
+  //   for (let i = 0; i < splitNum; ++i) {
+  //     oldX = x
+  //     oldY = y
+  //     x += vx / splitNum
+  //     y += vy / splitNum
+  //     oldR += (r - oldR) / splitNum
+  //     if (oldR < 1) {
+  //       oldR = 1
+  //     }
+  //     strokeWeight(oldR + diff) // AMEND: oldR -> oldR+diff
+  //     line(
+  //       x + random(0, 2),
+  //       y + random(0, 2),
+  //       oldX + random(0, 2),
+  //       oldY + random(0, 2)
+  //     )
+  //     strokeWeight(oldR) // ADD
+  //     line(
+  //       x + diff * random(0.1, 2),
+  //       y + diff * random(0.1, 2),
+  //       oldX + diff * random(0.1, 2),
+  //       oldY + diff * random(0.1, 2)
+  //     ) // ADD
+  //     line(
+  //       x - diff * random(0.1, 2),
+  //       y - diff * random(0.1, 2),
+  //       oldX - diff * random(0.1, 2),
+  //       oldY - diff * random(0.1, 2)
+  //     ) // ADD
+  //   }
+  // } else if (f) {
+  //   vx = vy = 0
+  //   f = false
+  // }
+
   stroke(red, green, blue)
   if (mouseIsPressed) {
     line(pmouseX, pmouseY, mouseX, mouseY)
