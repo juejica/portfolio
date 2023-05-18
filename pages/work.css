@@ -159,7 +159,10 @@ a {
   color: #000;
 }
 
-
+#italics {
+  font-size: 20px;
+  font-style: italic;
+}
 /* left arrow */
 /* .left-nav .arrow-left {
   transform: rotate(-135deg);
