@@ -56,7 +56,7 @@ let red = 109
 let green = 203
 let blue = 243
 
-// let brushSize = 6
+// let brushSize = 4
 // let f = 0.5
 // let spring = 0.4
 // let friction = 0.45

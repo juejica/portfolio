@@ -19,7 +19,7 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  
+  color:rgb(0, 0, 0);
 }
 h1 {
   padding: 8px;
@@ -187,7 +187,8 @@ a:hover {
   /* background: rgb(0, 0, 0, 0.85); */
   color: rgb(255, 247, 247);
   font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 18px;
   opacity: 0;
   display: flex;
     justify-content: left;
@@ -203,7 +204,7 @@ a:hover {
 
 .overlay-text {
   margin: 20px;
-  padding-left: 20px;
+  padding-left: 24px;
   padding-right: 20px;
   padding-bottom: 15px;
 }
@@ -218,10 +219,10 @@ a:hover {
   color: rgb(0, 0, 0);
   font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
   opacity: 0;
   display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: flex-end;
   filter: blur(4);
 }
