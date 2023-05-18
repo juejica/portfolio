@@ -6,15 +6,29 @@
         <link rel="stylesheet" href="about.css">
         <!-- favicon -->
         <link rel="icon" href="../assets/landing/favicon.svg">
-        <script src="sketch.js"></script>
+        <!-- <script defer src ="app.js"></script> -->
+        <script src="./libraries/p5.min.js"></script>
+        <script src="sketch_z1.js"></script>
         
     </head> 
 
     <body>
+
+      
       <header>
         <div class="inner">
           <h1 class = "title">ABOUT</h1>
         </div>
+
+        <nav id = "paintBoard">
+        
+          <a href = "#" style="background-color: #6dcbf3" onclick="changeToBlue()"></a>
+        <a href = "#" style="background-color: #e3baff" onclick="changeToPurple()"></a>
+        <a href = "#" style="background-color: #ff8571" onclick="changeToSalmon()"></a>
+        <a href = "#" style="background-color: #71bd35" onclick="changeToGreen()"></a>
+        <!-- <a href = "#" style="background-color: #000000" onclick="changeToBlack()"></a> -->
+        
+      </nav>
       </header>
 
       <main>
@@ -25,5 +39,6 @@
         </div>
       </main>  
       
+
     </body>
 </html>

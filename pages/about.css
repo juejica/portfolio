@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  margin: 0;
   font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
   /* background-color: #EDC956; */
 }
@@ -44,6 +45,6 @@ main {
 #eyes, #eyes img {
   position: absolute;
   display: flex;
-  max-width; 70px;
+  max-width: 70px;
   max-height: 70px;
 }

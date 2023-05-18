@@ -52,9 +52,9 @@ function keyPressed() {
 }
 
 // change colour
-let red = 0
-let green = 0
-let blue = 0
+let red = 109
+let green = 203
+let blue = 243
 
 function draw() {
   stroke(red, green, blue)
@@ -64,29 +64,35 @@ function draw() {
   }
 }
 
-function changeToGreen() {
-  red = 170
-  green = 245
-  blue = 66
-}
-
 function changeToBlue() {
-  red = 66
-  green = 173
-  blue = 245
+  red = 109
+  green = 203
+  blue = 243
 }
 
-function changeToRed() {
-  red = 245
-  green = 66
-  blue = 147
+function changeToPurple() {
+  red = 227
+  green = 186
+  blue = 255
 }
 
-function changeToBlack() {
-  red = 0
-  green = 0
-  blue = 0
+function changeToSalmon() {
+  red = 255
+  green = 133
+  blue = 113
 }
+
+function changeToGreen() {
+  red = 113
+  green = 189
+  blue = 53
+}
+
+// function changeToBlack() {
+//   red = 0
+//   green = 0
+//   blue = 0
+// }
 
 // eyes that follow mouse
 

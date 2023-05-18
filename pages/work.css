@@ -12,6 +12,7 @@ body {
   cursor:  url(../assets/cursor/upcursor.svg), auto;
 }
 
+
 .banner-area {
   width: 100%;
   height: 100vh;
@@ -19,48 +20,17 @@ body {
   background-size: cover;
 }
 
+.banner-area-jojo {
+  width: 100%;
+  height: 100vh;
+  background: url(../assets/jojo/THUMBNAIL-01.png);
+  background-size: cover;
+}
+
 span {
   font-size: 17vw;
 }
 
-/* p {
-  display: block;
-  margin-block-start: 4em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-section {
-  display: grid;
-  place-items: left;
-  align-content: center;
-  min-height: 100vh; 
-} */
-
-.hidden {
-  opacity: 0;
-  filter: blur(1px);
-  transform: translateY(300px);
-  transition: all 1s ease;
-
-}
-
-@media(prefers-reduced-motion) {
-  .hidden {
-    transition: none;
-  }
-}
-
-.show {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateY(0px);
-}
-
-h1 {
-  font-size: 17vw;
-}
 
 .row {
   margin-top: 26px;
@@ -80,6 +50,7 @@ h1 {
 .container {
   width: 70%;
   margin: 50px auto;
+  margin-bottom: 0;
   padding: 10px;
 }
 
@@ -108,7 +79,7 @@ h1 {
 .left-nav h4 {
   writing-mode: vertical-rl;
       /* transform: rotate(-180deg); */
-  color: #000000;
+  color: #00000070;
   letter-spacing: 1.2px;
   text-align: center;
   height: 110px;
@@ -153,7 +124,7 @@ a {
   writing-mode: vertical-rl;
         /* transform: rotate(0deg); */
         transform: translateX(-10%);
-  color: #000;
+  color: #00000070;
   letter-spacing: 1.2px;
   text-align: center;
   height: 110px;
@@ -177,6 +148,7 @@ a {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transition: 0.5s ease;
+  color: #000;
 }
 
 .right-nav h4:hover {
@@ -184,6 +156,7 @@ a {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transition: 0.5s ease;
+  color: #000;
 }
 
 
