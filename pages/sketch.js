@@ -139,10 +139,10 @@ function changeToPurple() {
   blue = 255
 }
 
-function changeToSalmon() {
+function changeToOrange() {
   red = 255
-  green = 133
-  blue = 113
+  green = 177
+  blue = 95
 }
 
 function changeToGreen() {
