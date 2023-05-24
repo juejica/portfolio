@@ -34,6 +34,13 @@ body {
   background-size: cover;
 }
 
+.banner-area-scarletdrone {
+  width: 100%;
+  height: 100vh;
+  background: url(../assets/scarletdrone/scarletdroneHero.png);
+  background-size: cover;
+}
+
 span {
   font-size: 12vw;
 }
@@ -55,11 +62,14 @@ span.smalltitle {
   display: flex;
 }
 
-.column {
-
+.column1 {
   flex: 1 2 220px;
   padding: 10px;
+}
 
+.column2 {
+  flex: 3;
+  padding: 10px;
 }
 
 .italics {
