@@ -98,8 +98,8 @@ a:hover {
 .illustration-block {
   width: 439px;
   height: 439px;
-  margin: 20px;
-  padding-bottom:80px;
+  margin: auto;
+  padding: 50px;
   display: flex;
   justify-content: center;
   pointer-events: none;

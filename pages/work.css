@@ -23,7 +23,7 @@ body {
 .banner-area-jojo {
   width: 100%;
   height: 100vh;
-  background: url(../assets/jojo/THUMBNAIL-01.png);
+  background: url(../assets/jojo/End_Title.png);
   background-size: cover;
 }
 
@@ -32,13 +32,22 @@ span {
 }
 
 
+
+.container {
+  width: 70%;
+  margin: 70px auto;
+  margin-bottom: 7;
+  padding: 10px;
+}
+
 .row {
   margin-top: 26px;
   display: flex;
 }
 
 .column {
-  flex: 1 2 auto;
+
+  flex: 1 2 240px;
   padding: 10px;
 
 }
@@ -47,17 +56,11 @@ span {
   font-style: italic;
 }
 
-.container {
-  width: 70%;
-  margin: 50px auto;
-  margin-bottom: 0;
-  padding: 10px;
-}
 
 .centerImg {
   display: block;
   margin: auto;
-  padding: 50px;
+  padding: 70px;
   max-width: 1300px;
   /* width: 100% !important; */
   object-fit: contain;
@@ -87,7 +90,7 @@ span {
   padding: 20px;
   transform: translateX(-10%);
 
-  font-size: 1vw;
+  font-size: 0.8vw;
   line-height: 0;
   font-weight: 400;
   font-style: normal;
@@ -131,7 +134,7 @@ a {
   float: right;
   padding: 20px;
 
-  font-size: 1vw;
+  font-size: 0.8vw;
   line-height: 0;
   font-weight: 400;
   font-style: normal;
