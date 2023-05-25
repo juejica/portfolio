@@ -8,7 +8,7 @@
 body {
   /* padding: 200px;
   margin: 10px; */
-  font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
+  font-family: 'Neue-Haas-Grotesk-Display', 'Helvetica', 'Arial', Sans-serif;
   cursor:  url(../assets/cursor/upcursor.svg), auto;
 }
 
@@ -38,6 +38,13 @@ body {
   width: 100%;
   height: 100vh;
   background: url(../assets/scarletdrone/scarletdroneHero.png);
+  background-size: cover;
+}
+
+.banner-area-drone {
+  width: 100%;
+  height: 130vh;
+  background: url(../assets/scarletdrone/threedrones.svg);
   background-size: cover;
 }
 
@@ -249,16 +256,19 @@ p {
 .parallax img:nth-child(2) {
   top: 74%;
   left: 56%;
+  z-index: 1;
 }
 
 .parallax img:nth-child(3) {
   top: 10%;
   left: 20%;
+  z-index: 1;
 }
 
 .parallax img:nth-child(4) {
   top: 29%;
     left: 60%;
+    z-index: 0
 }
 
 .parallax img:nth-child(5) {
