@@ -193,7 +193,7 @@ hiddenElements.forEach((el) => observer.observe(el))
 document.addEventListener('mousemove', parallax)
 function parallax(e) {
   this.querySelectorAll('.move').forEach((move) => {
-    const speed = move.getAttribute('data-speed')
+    const speed = move.getAttribute('data-value')
     const x = (window.innerWidth - e.pageX * speed) / 80
     const y = (window.innerHeight - e.pageY * speed) / 80
 
