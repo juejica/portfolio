@@ -189,15 +189,14 @@ const hiddenElements = document.querySelectorAll('.hidden')
 
 hiddenElements.forEach((el) => observer.observe(el))
 
-//parallax effect
-// document.addEventListener("mousemove", parallax);
-// function parallax(e) {
-//   document.querySelectorAll(".object").forEach(function(move{
-//     var moving_value = move.getAttribute("data-value");
-//     var x = e.clientX * moving_value;
-//     var y = e.clientY * moving_value;
+// parallax effect
+document.addEventListener('mousemove', parallax)
+function parallax(e) {
+  this.querySelectorAll('.move').forEach((move) => {
+    const speed = move.getAttribute('data-speed')
+    const x = (window.innerWidth - e.pageX * speed) / 80
+    const y = (window.innerHeight - e.pageY * speed) / 80
 
-//     move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
-
-//   }));
-// }
+    move.style.transform = `translateX(${x}px) translateY(${y}px)`
+  })
+}
