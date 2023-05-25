@@ -1,8 +1,15 @@
+* {
+  user-select: none !important;
+
+}
+
 body {
-  margin: 0;
+
   margin: 0;
   font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
   /* background-color: #EDC956; */
+  cursor:  url(../assets/cursor/upcursor.svg), auto;
+  background-color: #ffffff;
 }
 
 
@@ -34,12 +41,12 @@ h2 {
 main {
   display: grid;
   place-items: center;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
 }
 
 #anchor {
-  height: 700px;
+  height: 500px;
 }
 
 #eyes, #eyes img {
@@ -47,4 +54,30 @@ main {
   display: flex;
   max-width: 70px;
   max-height: 70px;
+}
+
+.container {
+  width: 70%;
+  margin: 70px auto;
+  margin-bottom: 7;
+  padding: 10px;
+}
+
+.row {
+  margin-top: 26px;
+  display: flex;
+}
+
+.column1 {
+  flex: 1 2 220px;
+  padding: 10px;
+}
+
+.column2 {
+  flex: 3;
+  padding: 10px;
+}
+
+.italics {
+  font-style: italic;
 }
