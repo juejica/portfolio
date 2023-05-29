@@ -38,43 +38,44 @@ h2 {
 }
 
 /* moving eyes */
-main {
+/* main {
   display: grid;
   place-items: center;
   height: 100vh;
   position: relative;
-}
+} */
 
 #anchor {
   height: 500px;
+  pointer-events: none;
 }
 
 #eyes, #eyes img {
   position: absolute;
   display: flex;
-  max-width: 70px;
-  max-height: 70px;
+  max-width: 55px;
+  max-height: 55px;
+  pointer-events: none;
 }
 
 .container {
   width: 70%;
-  margin: 70px auto;
+  margin:  auto;
   margin-bottom: 7;
   padding: 10px;
 }
 
 .row {
-  margin-top: 26px;
   display: flex;
 }
 
 .column1 {
-  flex: 1 2 220px;
-  padding: 10px;
+  flex: 3;
+  padding: 60px;
 }
 
 .column2 {
-  flex: 3;
+  flex: 1;
   padding: 10px;
 }
 
