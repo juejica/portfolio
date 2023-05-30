@@ -2,49 +2,49 @@
 
 var canvas
 
-//window will resize to the width and height of the window
-// function windowResized() {
-//   //console.log('resized')
-//   resizeCanvas(windowWidth, windowHeight)
-// }
-
-// function setup() {
-//   canvas = createCanvas(windowWidth, windowHeight)
-//   canvas.position(0, 0)
-//   canvas.style('z-index', '-1') //puts canvas behind
-//   // background(255)
-// }
+// window will resize to the width and height of the window
+function windowResized() {
+  //console.log('resized')
+  resizeCanvas(windowWidth, windowHeight)
+}
 
 function setup() {
-  let h = Math.max(
-    document.body.scrollHeight,
-    document.documentElement.scrollHeight,
-    document.body.offsetHeight,
-    document.documentElement.offsetHeight,
-    document.body.clientHeight,
-    document.documentElement.clientHeight
-  )
-  console.log(h)
-  console.log(document.body.scrollHeight)
-  console.log(windowHeight)
-  canvas = createCanvas(windowWidth, h)
+  canvas = createCanvas(windowWidth, windowHeight)
   canvas.position(0, 0)
   canvas.style('z-index', '1') //puts canvas behind
   // background(255)
 }
 
-function windowResized() {
-  let h = Math.max(
-    document.body.scrollHeight,
-    document.documentElement.scrollHeight,
-    document.body.offsetHeight,
-    document.documentElement.offsetHeight,
-    document.body.clientHeight,
-    document.documentElement.clientHeight
-  )
-  // console.log('resized')
-  resizeCanvas(windowWidth, h)
-}
+// function setup() {
+//   let h = Math.max(
+//     document.body.scrollHeight,
+//     document.documentElement.scrollHeight,
+//     document.body.offsetHeight,
+//     document.documentElement.offsetHeight,
+//     document.body.clientHeight,
+//     document.documentElement.clientHeight
+//   )
+//   console.log(h)
+//   console.log(document.body.scrollHeight)
+//   console.log(windowHeight)
+//   canvas = createCanvas(windowWidth, h)
+//   canvas.position(0, 0)
+//   canvas.style('z-index', '1') //puts canvas behind
+//   // background(255)
+// }
+
+// function windowResized() {
+//   let h = Math.max(
+//     document.body.scrollHeight,
+//     document.documentElement.scrollHeight,
+//     document.body.offsetHeight,
+//     document.documentElement.offsetHeight,
+//     document.body.clientHeight,
+//     document.documentElement.clientHeight
+//   )
+//   // console.log('resized')
+//   resizeCanvas(windowWidth, h)
+// }
 
 //pressing a key will clear the canvas
 function keyPressed() {
