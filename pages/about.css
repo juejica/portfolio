@@ -39,21 +39,22 @@ h2 {
 }
 
 /* Colour Navbar */
+#paintBoard {
+  position: fixed;
+  z-index: 200;
+  bottom: 45px;
+  right: 45px;
+}
+
 #paintBoard a {
   display: inline-block;
   width: 30px;
   height: 30px;
   border-radius: 20px;
-  margin: 0 10px 0 0;
+  /* margin: 0 10px 0 0; */
+  margin: 5px;
 }
 
-
-#paintBoard {
-  position: fixed;
-  z-index: 200;
-  bottom: 30px;
-  right: 30px;
-}
 
 
 /* moving eyes */

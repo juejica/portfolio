@@ -97,7 +97,7 @@ document.addEventListener('mousemove', parallax)
 function parallax(e) {
   this.querySelectorAll('.move').forEach((move) => {
     const speed = move.getAttribute('data-value')
-    const x = (window.innerWidth - e.pageX * speed) / 80
+    const x = (window.innerWidth - e.pageX * speed) / 50
     const y = (window.innerHeight - e.pageY * speed) / 80
 
     move.style.transform = `translateX(${x}px) translateY(${y}px)`

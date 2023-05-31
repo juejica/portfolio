@@ -47,9 +47,9 @@ function windowResized() {
 }
 
 //pressing a key will clear the canvas
-// function keyPressed() {
-//   clear()
-// }
+function keyPressed() {
+  clear()
+}
 
 // change colour
 let red = 109
@@ -76,10 +76,10 @@ function changeToPurple() {
   blue = 255
 }
 
-function changeToSalmon() {
+function changeToOrange() {
   red = 255
-  green = 133
-  blue = 113
+  green = 177
+  blue = 95
 }
 
 function changeToGreen() {
