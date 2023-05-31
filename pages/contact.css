@@ -93,8 +93,8 @@ h2 {
 .title {
   position: absolute;
     width: 40%;
-    top: 46%;
-    left: 50%;
+    top: 43%;
+    left: 46%;
     transform: translate(-50%, -50%);
     padding: 10px;
 }
@@ -102,8 +102,8 @@ h2 {
 .email {
   position: absolute;
     width: 40%;
-    top: 54%;
-    left: 50%;
+    top: 51%;
+    left: 46%;
     transform: translate(-50%, -50%);
     padding: 10px;
     z-index: 100;
@@ -254,18 +254,22 @@ a:link, a:visited {
 
 
 /* DOODLES */
-.threeLines {
+/* img {
+  pointer-events: none;
+} */
+.circle {
+  width: 328px;
   position: absolute;
-    left: 323px;
-    top: -18px;
-    display: block;
+  left: -38px;
+  top: -108px;
+  display: block;
+  
 }
 
-.hand {
-  width: 172px;
+.mail {
+  width: 100px;
     position: absolute;
-    left: 922px;
-    top: 346px;
+    left: 560px;
+    top: 110px;
     display: block;
 }
-

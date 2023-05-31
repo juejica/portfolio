@@ -47,9 +47,9 @@ function windowResized() {
 }
 
 //pressing a key will clear the canvas
-function keyPressed() {
-  clear()
-}
+// function keyPressed() {
+//   clear()
+// }
 
 // change colour
 let red = 109
