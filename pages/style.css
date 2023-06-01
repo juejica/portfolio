@@ -276,3 +276,27 @@ a:hover {
   filter: blur(0);
 }
 
+/* DOODLES */
+.downArrow {
+  width: 80px;
+    position: absolute;
+    left: 877px;
+    top: 604px;
+    display: block;
+}
+
+.hello {
+  width: 208px;
+    position: absolute;
+    left: 165px;
+    top: 196px;
+    display: block;
+}
+
+.zigzag {
+  width: 181px;
+    position: absolute;
+    left: 1124px;
+    top: 159px;
+    display: block;
+}
