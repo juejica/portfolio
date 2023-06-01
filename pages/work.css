@@ -92,6 +92,7 @@ span.smalltitle {
   /* width: 100% !important; */
   object-fit: contain;
   z-index: 100;
+  
 }
 
 /* left navbar */
@@ -180,6 +181,7 @@ a {
   -ms-transform: scale(1.2);
   transition: 0.5s ease;
   color: #000;
+  cursor: url(../assets/cursor/pointer.svg), auto;
 }
 
 .right-nav h4:hover {
@@ -188,6 +190,7 @@ a {
   -ms-transform: scale(1.2);
   transition: 0.5s ease;
   color: #000;
+  cursor: url(../assets/cursor/pointer.svg), auto;
 }
 
 p {

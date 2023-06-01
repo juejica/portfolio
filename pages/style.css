@@ -56,7 +56,7 @@ a:hover {
   text-decoration: underline;
   text-decoration-thickness: 7px;
   text-underline-offset: 11px;
-  
+  cursor: url(../assets/cursor/pointer.svg), auto;
 }
 
 /* Slide text transition on hover*/

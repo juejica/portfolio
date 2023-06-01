@@ -8,7 +8,7 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Helvetica, Arial, Sans-serif;
   /* background-color: #EDC956; */
-  /* cursor:  url(../assets/cursor/upcursor.svg), auto; */
+  cursor:  url(../assets/cursor/arrow.svg), auto;
   background-color: #ffffff;
 }
 
@@ -212,6 +212,7 @@ a {
   -ms-transform: scale(1.2);
   transition: 0.5s ease;
   color: #000;
+  cursor: url(../assets/cursor/pointer.svg), auto;
 }
 
 .right-nav h4:hover {
@@ -220,6 +221,7 @@ a {
   -ms-transform: scale(1.2);
   transition: 0.5s ease;
   color: #000;
+  cursor: url(../assets/cursor/pointer.svg), auto;
 }
 
 p {
