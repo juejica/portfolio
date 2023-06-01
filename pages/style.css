@@ -142,7 +142,7 @@ a:hover {
   width: 439px;
   height: 439px;
   margin: auto;
-  padding: 50px;
+  padding: 20px 44px 80px 44px;
   display: flex;
   justify-content: center;
   pointer-events: none;
@@ -278,10 +278,10 @@ a:hover {
 
 /* DOODLES */
 .downArrow {
-  width: 80px;
+  width: 64px;
     position: absolute;
-    left: 877px;
-    top: 604px;
+    left: 689px;
+    top: 619px;
     display: block;
 }
 
