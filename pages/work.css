@@ -264,8 +264,8 @@ p {
 }
 
 .parallax img:nth-child(3) {
-  top: 9%;
-  left: 16%;
+  top: 21%;
+  left: 31%;
   z-index: 1;
 }
 

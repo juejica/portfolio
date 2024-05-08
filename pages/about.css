@@ -234,6 +234,7 @@ p {
     left: 323px;
     top: -18px;
     display: block;
+    pointer-events: none;
 }
 
 .hand {
@@ -242,5 +243,6 @@ p {
     left: 922px;
     top: 346px;
     display: block;
+    pointer-events: none;
 }
 

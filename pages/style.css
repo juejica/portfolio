@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: 'Gestalt', Helvetica, Arial, Sans-serif;
+  font-family: Gestalt, 'Helvetica', Arial, Sans-serif;
   cursor:  url(../assets/cursor/upcursor.svg), auto;
   background-color: #ffffff;
 }
@@ -299,4 +299,6 @@ a:hover {
     left: 1124px;
     top: 159px;
     display: block;
+    pointer-events: none;
+    z-index: -100;
 }
